@@ -99,7 +99,7 @@ body {
   margin-bottom: var(--spacing-300);
 }
 
-.main-qr-component-container h2 {
+.main-qr-component-container h1 {
   font: var(--text-outfit-bold);
   color: var(--slate-900);
 }
@@ -107,5 +107,5 @@ body {
   font: var(--text-outfit-regular);
   letter-spacing: var(--text-outfit-regular-ls);
   color: var(--slate-500);
-  margin-top: var(--spacing-200);
+  margin: var(--spacing-200) var(--spacing-200) 0 var(--spacing-200);
 }
