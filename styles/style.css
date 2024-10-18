@@ -1,0 +1,111 @@
+:root {
+  --slate-900: #1f314f;
+  --slate-500: #68778d;
+  --slate-300: #d5e1ef;
+  --white: #ffffff;
+
+  /* Typography */
+  --text-outfit-bold: 700 22px/120% 'Outfit', 'Arial', sans-serif;
+  --text-outfit-bold-ls: 0px;
+  --text-outfit-regular: 400 15px/140% 'Outfit', 'Arial', sans-serif;
+  --text-outfit-regular-ls: 0.2px;
+  /* the above specifies font-weight, font-size/line-height, font-family and fallbacks
+  /* "font:" shorthand does not include letter spacing */
+
+  /* Spacing */
+  --spacing-500: 40px;
+  --spacing-300: 24px;
+  --spacing-200: 16px;
+}
+
+/* ==================== CSS RESET ==================== */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 10px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  vertical-align: baseline;
+  overflow-x: hidden;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  cursor: pointer;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* ==================== CSS RESET ==================== */
+body {
+  background-color: var(--slate-300);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-qr-component-container {
+  width: 320px;
+  height: 499px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 20px;
+
+  padding: var(--spacing-200);
+  padding-bottom: var(--spacing-300);
+}
+.main-qr-component-container img {
+  margin-bottom: var(--spacing-300);
+}
+
+.main-qr-component-container h2 {
+  font: var(--text-outfit-bold);
+  color: var(--slate-900);
+}
+.main-qr-component-container p {
+  font: var(--text-outfit-regular);
+  letter-spacing: var(--text-outfit-regular-ls);
+  color: var(--slate-500);
+  margin-top: var(--spacing-200);
+}
