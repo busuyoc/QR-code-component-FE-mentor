@@ -5,17 +5,17 @@
   --white: #ffffff;
 
   /* Typography */
-  --text-outfit-bold: 700 22px/120% 'Outfit', 'Arial', sans-serif;
+  --text-outfit-bold: 700 2.2rem/120% 'Outfit', 'Arial', sans-serif;
   --text-outfit-bold-ls: 0px;
-  --text-outfit-regular: 400 15px/140% 'Outfit', 'Arial', sans-serif;
-  --text-outfit-regular-ls: 0.2px;
+  --text-outfit-regular: 400 1.5rem/140% 'Outfit', 'Arial', sans-serif;
+  --text-outfit-regular-ls: 0.002rem;
   /* the above specifies font-weight, font-size/line-height, font-family and fallbacks
   /* "font:" shorthand does not include letter spacing */
 
   /* Spacing */
-  --spacing-500: 40px;
-  --spacing-300: 24px;
-  --spacing-200: 16px;
+  --spacing-500: 4rem;
+  --spacing-300: 2.4rem;
+  --spacing-200: 1.6rem;
 }
 
 /* ==================== CSS RESET ==================== */
@@ -84,13 +84,13 @@ body {
   justify-content: center;
 }
 .main-qr-component-container {
-  width: 320px;
-  height: 499px;
+  width: 32rem;
+  height: 49.9rem;
   background-color: var(--white);
   display: flex;
   flex-direction: column;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 2rem;
 
   padding: var(--spacing-200);
   padding-bottom: var(--spacing-300);
